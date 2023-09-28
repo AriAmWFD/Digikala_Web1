@@ -1003,6 +1003,7 @@ div.item > img {
   width: 100%;
   height: 100%;
   border-radius: inherit;
+  object-fit: cover;
 }
 
 div.digicats {
@@ -1152,3 +1153,23 @@ section.suggestion a {
   text-decoration: none;
   color: black;
 }
+/*end digikala suggestions*/
+
+/*start brand*/
+
+section.brands {width: 69.5vw;height: 224.09px;margin: 24px auto;border: #e0e0e2 1px solid;border-radius: 16px;padding: 24px 0px;}
+section.brands > div.head {margin: 0 auto;display: flex;justify-content: center;align-items: center;}
+section.brands > div.head > img {width: 24px;height: 24px;margin-left: 5px;}
+section.brands > div.head > p {font-size: 21px;}
+section.brands .brand > a {width: 142px;height: 118px;padding: 4px 16px;}
+section.brands .brand > a > img {width: 110px;height: 110px;}
+
+
+
+
+
+
+
+
+
+/*start brand*/
