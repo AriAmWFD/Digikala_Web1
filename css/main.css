@@ -1166,10 +1166,11 @@ section.brands {
   padding: 24px 0px;
 }
 section.brands > div.head {
-  margin: 0 auto;
+  margin: 0px auto;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 10px;
 }
 section.brands > div.head > img {
   width: 24px;
@@ -1179,10 +1180,16 @@ section.brands > div.head > img {
 section.brands > div.head > p {
   font-size: 21px;
 }
+section.brands .brand {
+  width: 142px;
+  height: 118px;
+  border-left: 1px solid #e0e0e2;
+}
 section.brands .brand > a {
   width: 142px;
   height: 118px;
   padding: 4px 16px;
+  display: flex;
 }
 section.brands .brand > a > img {
   width: 110px;
@@ -1330,3 +1337,104 @@ div.recommend > div.rec4 > div.all > img {
   width: 18px;
   height: 18px;
 }
+/*start digiplus*/
+div.digiplus {
+  width: 1336px;
+  height: 387px;
+  background-color: #941b80;
+  border-radius: 16px;
+  margin: 24px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+div.digiplus > div.widget {
+  width: 416px;
+  height: 355px;
+  margin: 0px 0px 0px 12px;
+  padding: 24px 24px 0px 0px;
+  background-image: url(../Media/plus-widget.png);
+  background-size: contain;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+}
+div.digiplus > div.widget > p {
+  font-size: 14px;
+  color: white;
+}
+div.digiplus > div.widget > a {
+  text-decoration: none;
+  color: white;
+  margin-top: 12px;
+  padding: 4px 16px;
+  font-size: 12px;
+  border: white 1px solid;
+  display: flex;
+  width: 105px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+div.digiplus > div.widget > a > img {
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+}
+
+div.digiplus > div.pro {
+  width: 868px;
+  height: 355px;
+  padding: 0px 16px;
+  background-color: white;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+div.digiplus > div.pro > div.head {
+  display: flex;
+  justify-content: space-between;
+  width: 836px;
+  height: 65.59px;
+}
+div.digiplus > div.pro > div.head > div.ersal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.digiplus > div.pro > div.head > div.ersal > img {
+  width: 24px;
+  height: 24px;
+}
+div.digiplus > div.pro > div.head > div.ersal > h4 {
+  font-size: 16px;
+  margin-right: 8px;
+}
+div.digiplus > div.pro > div.head > div.moshahede {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div.digiplus > div.pro > div.head > div.moshahede > a {
+  text-decoration: none;
+  color: #b12ba4;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+div.digiplus > div.pro > div.head > div.moshahede > a > img {
+  width: 20px;
+  height: 20px;
+}
+div.digiplus > div.pro > div.body {
+  width: 836px;
+  height: 280px;
+  padding: 0px 0px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 28px;
+}
+div.digiplus > div.pro > div.body > img {
+  width: 116px;
+  height: 116px;
+}
+/*end digiplus*/
