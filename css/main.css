@@ -459,6 +459,9 @@ div.menu > div.mmenu > div.dstbnd > div.submenu > div.c {
   display: flex;
   align-items: center;
 }
+div.menu > div.mmenu > div.dstbnd > div.submenu > div.c:hover + div {
+  opacity: 1;
+}
 
 div.menu > div.mmenu > div.dstbnd > div.submenu > div.c > a {
   text-decoration: none;
@@ -2025,3 +2028,4 @@ div.companians {
   display: flex;
   justify-content: center;
 }
+/*end footer*/
